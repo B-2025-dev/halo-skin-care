@@ -1,0 +1,294 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fffafc;
+  color: #333;
+}
+
+a, button {
+  transition: all 0.3s ease;
+}
+
+header {
+  background: #f9f0f7;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e0dfe3;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ce91bd;
+}
+
+.tagline {
+  font-style: italic;
+  color: #7a3e67; /* Darker for better contrast */
+  margin: 5px 0 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8e4d76;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #ce91bd;
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  background: #ffeef6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #ce91bd;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  background-color: #ce91bd;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover,
+.hero button:focus {
+  background-color: #b978a5;
+}
+
+/* Products section */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.testimonials {
+  background: linear-gradient(to right, #fffafc, #ffeef6);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 2rem;
+  color: #ce91bd;
+  margin-bottom: 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid #f3d9e3;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+  position: relative;
+  text-align: left;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.testimonial-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+  border: 2px solid #ce91bd;
+}
+
+.testimonial-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-meta .name {
+  font-weight: bold;
+  color: #8e4d76;
+}
+
+.testimonial-meta .quote-icon {
+  font-size: 2rem;
+  line-height: 1;
+  color: #ce91bd;
+}
+
+.testimonial-card p {
+  color: #5c2e47;
+  font-style: italic;
+  margin: 0;
+}
+
+
+.about-brand {
+  background: #ffeef6;
+  padding: 60px 20px;
+  color: #5c2e47;
+  text-align: center;
+}
+
+.about-brand h3 {
+  font-size: 2rem;
+  color: #ce91bd;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 4px solid #f3d9e3;
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-text strong {
+  color: #8e4d76;
+}
+
+.about-text em {
+  font-style: italic;
+  color: #b55b9d;
+}
+
+.signature {
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #8e4d76;
+}
+
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  background: #f9f0f7;
+  text-align: center;
+}
+
+.contact a {
+  color: #8e4d76;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact a:hover,
+.contact a:focus {
+  color: #b55b9d;
+}
+
+/* Footer */
+footer {
+  background: #f9f0f7;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card,
+  .testimonial-card {
+    width: 90%;
+  }
+}
+
