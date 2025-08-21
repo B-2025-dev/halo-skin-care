@@ -41,5 +41,15 @@ Git & GitHub – Version control & project showcasing
 
 🧠 Thoughtful UX decisions to guide the user gently through the experience
 
-<img width="3208" height="2526" alt="image" src="https://github.com/user-attachments/assets/6418262a-b60b-47e3-82f9-27737192c207" />
-<img width="3208" height="2526" alt="image" src="https://github.com/user-attachments/assets/c2b8b81d-d0c6-4840-ae77-16db5329587a" />
+
+<img width="1486" height="1027" alt="Halo 1" src="https://github.com/user-attachments/assets/cf88b276-9288-49e6-bc17-39e9047ac850" />
+
+
+<img width="1491" height="1027" alt="Halo 2 " src="https://github.com/user-attachments/assets/e7f3d661-9328-4fc3-bf49-cf7720fdbf68" />
+
+<img width="1489" height="1062" alt="Halo 3 " src="https://github.com/user-attachments/assets/3add9efd-943e-4829-a328-0db05698f308" />
+
+
+
+
+
